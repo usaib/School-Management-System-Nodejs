@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.4.2",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1"
+  },
+  "name": "express-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+        User Authentication
+    </title>
+    <link href='static/css/bootstrap.min.css' rel="stylesheet">
+    <link rel="shortcut icon" href="teacher.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	body
+{
+margin:0 auto;	 
+}
+.main
+{
+	min-height: 200px;
+	max-height: 200px;
+	min-width: 100%;
+	max-width: 100%;
+}
+
+	.heading 
+	{
+		min-height: 120px;
+		max-height: 120px;
+		min-width: 70%;
+		max-width: 70%;
+		background:whitesmoke;
+     	border:0px;
+     	border-radius: 20px;
+		margin-left: 15%;
+		margin-top: 2%
+	}
+	.empty{
+		min-height: 10px;
+		max-height: 10px;
+	}
+	.school
+	{
+		font-family: "Comic Sans MS", cursive, sans-serif;
+		text-align: center;
+	}
+	.form-container input[type=text], .form-container input[type=email], .form-container input[type=number], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: whitesmoke;
+  border-radius: 10px;
+
+}
+.form-container {
+	min-width: 90%;
+  max-width: 90%;
+  padding: 10px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+  min-height: 400px;
+  box-shadow: 1px 5px 7px 1px grey;
+}
+#submit{
+    border-radius: 10px;
+    width: 40%;
+    margin-left:30%;
+}
+	@media all and (max-width: 2009px) and (min-width: 800px) {
+		.same
+		{
+			min-height: 500px;
+			max-height: 500px;
+			min-width: 48%;
+			max-width: 48%;
+			margin-left: 1%;
+			margin-top: 1%;
+			float: left;
+	
+		}
+
+	}
+	@media all and (max-width: 799px) and (min-width: 100px) {
+		.same
+		{
+			min-height: 500px;
+			max-height: 500px;
+			min-width: 100%;
+			max-width: 100%;
+			margin-top: 1%;
+		}
+	
+		
+	}
+</style>
+<body>
+	<div class="main">
+		<div class="heading">
+			<div class="empty"></div>
+			<h1><span class="school" style="color: black; margin-left: 10%; font-size:3.2vw;">SCHOOL MANAGMENT SYSTEM</span></h1>
+		</div>
+	</div>
+	<div class="same">
+		<div class="forim">
+			<img src="schools.png" class="img-rounded" width="100%">
+		</div>
+		</div>
+	</div>
+</body>
+	</div>
+	<div class="same">
+		<div class="lgform">
+			<div class="container-fluid fill-height"  >
+        	<div class="form-popup" id="myForm">
+            <form id="Loginform" action="index" class="form-container" method="POST">
+                <br></br>
+                <label for="name"><b>User Name</b></label>
+                <input type="text" id="username" placeholder="Enter User Name" name="username" required>
+            
+                <label for="password" ><b>Password</b></label>
+                <input type="password" id="password" placeholder="Enter Password" name="password" required>
+                <button type="submit" class="btn btn-success" id="submit" onclick="">LOGIN</button>
+            </form>
+        </div>
+<script>
+ 
+</script>
+</html>
